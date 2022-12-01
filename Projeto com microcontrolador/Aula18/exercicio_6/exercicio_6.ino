@@ -1,15 +1,12 @@
-//Exercício 5: Ligue ou desligue o controle do LED a partir da serial, digitando ON ou OFF.
-//Quando digitar OFF, deve imprimir “LED desligado” uma vez e desligar o LED. Consulte
-//a aula 16.
+//Exercício 6: Faça o controle por PWM de um LED no pino 9 de acordo com o
+//valor lido em um potenciômetro.
 
-#define LED0 7
+#define LED0 9
 #define potenciometro A0
 
-int pot_valor, pot_valor_delay = 0;
-int delay_serial = 500;
-unsigned long ultima_leitura_led, ultima_leitura_serial;
-
-String comando;
+int pot_valor, brightness = 0;
+unsigned long ultima_leitura_serial;
+int delay_serial = 0;
 
 void setup() {
   Serial.begin(9600);
@@ -17,25 +14,14 @@ void setup() {
 }
 
 void loop() {
-  if (Serial.available()>0){
-    comando = Serial.readString();
-
-    if (comando.startsWith("OFF")){
-      Serial.println("LED desligado");
-      digitalWrite(LED0, LOW);
-    }
-  }
-  if (comando.startsWith("ON")){
+ 
     pot_valor = analogRead(potenciometro);
-    pot_valor_delay = map(pot_valor, 0, 1023, 100, 1000);
-    if ((millis() - ultima_leitura_led) >= pot_valor_delay){
-      digitalWrite(LED0, !digitalRead(LED0));
-      ultima_leitura_led = millis();
-    }
-    
+    brightness = map(pot_valor, 0, 1023, 0, 255);
+    analogWrite(LED0, brightness);
+
     if ((millis() - ultima_leitura_serial) >= delay_serial){
-      Serial.println(pot_valor_delay);
+      Serial.println(brightness);
       ultima_leitura_serial = millis();  
-    }  
-  }
+    }
+      
 }
