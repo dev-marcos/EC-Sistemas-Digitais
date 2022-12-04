@@ -1,0 +1,19 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+ENTITY Exercicio_1 IS
+	PORT (IN1 : IN std_logic;
+			IN2 : IN std_logic;
+			IN3 : IN std_logic;
+		saida1 : OUT std_logic;
+		saida2 : OUT std_logic;
+		saida3 : OUT std_logic);
+		
+END Exercicio_1;
+
+ARCHITECTURE logica OF Exercicio_1 IS
+BEGIN
+	saida1 <= IN1 OR IN2 OR IN3;
+	saida2 <= IN2 XOR IN3;
+	saida3 <= (IN1 AND IN2) OR IN3;
+END logica;

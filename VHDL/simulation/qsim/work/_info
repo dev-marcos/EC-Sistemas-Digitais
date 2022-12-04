@@ -1,0 +1,182 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Marcos Rocha/Desktop/VHDL/simulation/qsim
+Eexercicio_2
+Z1 w1667320315
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx10 cycloneive 20 cycloneive_atom_pack 0 22 g8;l:a_bzlE?3R3d7zk3Z0
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z7 DPx10 cycloneive 21 cycloneive_components 0 22 Yj^f[Ven<H;0LiK:6PWEg0
+R0
+Z8 8Primeir_projeto.vho
+Z9 FPrimeir_projeto.vho
+l0
+L34
+VC^SI_0cDzXiEUDM1@Z7k91
+!s100 PS6cI:2M5TdfFC1PZbMoZ3
+Z10 OV;C;10.5b;63
+32
+Z11 !s110 1667320318
+!i10b 1
+Z12 !s108 1667320318.000000
+Z13 !s90 -work|work|Primeir_projeto.vho|
+Z14 !s107 Primeir_projeto.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 11 exercicio_2 0 22 C^SI_0cDzXiEUDM1@Z7k91
+l69
+L44
+Vf^IVE8olWKiYH?[8Z<>SH3
+!s100 _:TD;KSi6QaN>Mf@_KUGS1
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Eexercicio_2_vhd_vec_tst
+Z17 w1667320313
+R5
+R6
+R0
+Z18 8Waveform.vwf.vht
+Z19 FWaveform.vwf.vht
+l0
+L31
+Vb0WHlFJd>@:2DAhRaU[:U0
+!s100 LJzJ9X@2JjDEYijRW1CoR2
+R10
+32
+R11
+!i10b 1
+R12
+Z20 !s90 -work|work|Waveform.vwf.vht|
+Z21 !s107 Waveform.vwf.vht|
+!i113 1
+R15
+R16
+Aexercicio_2_arch
+R5
+R6
+DEx4 work 23 exercicio_2_vhd_vec_tst 0 22 b0WHlFJd>@:2DAhRaU[:U0
+l50
+L33
+V[dmkM[bQcog68>??jkc<M0
+!s100 W0b2^3g=FNoiMB[e:kGDf3
+R10
+32
+R11
+!i10b 1
+R12
+R20
+R21
+!i113 1
+R15
+R16
+Eexercicio_3
+Z22 w1667321658
+R2
+R3
+R4
+R5
+R6
+R7
+R0
+R8
+R9
+l0
+L34
+Vm@Dz>eHcWa57eIhQ;:01?2
+!s100 ngJV^<OnOm<c`SeIoEK_V2
+R10
+32
+Z23 !s110 1667321659
+!i10b 1
+Z24 !s108 1667321659.000000
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 11 exercicio_3 0 22 m@Dz>eHcWa57eIhQ;:01?2
+l73
+L45
+ViJeU11LgY`hVc`0VDkd?O1
+!s100 le@2HPDLCHn=0QUPJCQEI0
+R10
+32
+R23
+!i10b 1
+R24
+R13
+R14
+!i113 1
+R15
+R16
+Eexercicio_3_vhd_vec_tst
+Z25 w1667321656
+R5
+R6
+R0
+Z26 8Waveform3.vwf.vht
+Z27 FWaveform3.vwf.vht
+l0
+L31
+VK]:d]^?b30@ml]?`L^>Po3
+!s100 9KYjf5=@?_2;BAaMiQFBA1
+R10
+32
+R23
+!i10b 1
+R24
+Z28 !s90 -work|work|Waveform3.vwf.vht|
+Z29 !s107 Waveform3.vwf.vht|
+!i113 1
+R15
+R16
+Aexercicio_3_arch
+R5
+R6
+Z30 DEx4 work 23 exercicio_3_vhd_vec_tst 0 22 K]:d]^?b30@ml]?`L^>Po3
+l52
+L33
+Z31 V?TW2S6Km:i0:bA5EDPmDm0
+Z32 !s100 5JK17aNNGNeGNJTo3LOnh2
+R10
+32
+R23
+!i10b 1
+R24
+R28
+R29
+!i113 1
+R15
+R16
